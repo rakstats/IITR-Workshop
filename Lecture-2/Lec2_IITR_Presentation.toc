@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Outline}{2}{0}{1}
+\beamer@sectionintoc {2}{Introduction to Ggplot2}{3}{0}{2}
+\beamer@sectionintoc {3}{Key three elements of any Ggplot2 figure}{8}{0}{3}
+\beamer@sectionintoc {4}{Key element-1: Data}{10}{0}{4}
+\beamer@sectionintoc {5}{Key element-2: Aesthetics}{15}{0}{5}
+\beamer@sectionintoc {6}{Key element-3: Geometry}{55}{0}{6}
+\beamer@sectionintoc {7}{Summary}{66}{0}{7}

@@ -1,0 +1,16 @@
+\frametitle{RCode: combined geoms with faceting}
+\begin{lstlisting}
+ggplot(mpg, aes(x = cty, y=hwy)) +
+# Reproduce jittering
+geom_point(aes(color=factor(drv)),
+position = position_jitter(seed = 123),
+shape = 1) +
+# fit a linear regression
+geom_smooth(method = "lm", se = FALSE, color="black", linetype = "dashed") +
+# Faceting based on drv factor
+facet_wrap(~ factor(drv)) +
+theme_classic() +
+labs(color = "Driving train",
+     x = "City miles/gallon",
+     y = "Highway miles/gallon")
+\end{lstlisting}
