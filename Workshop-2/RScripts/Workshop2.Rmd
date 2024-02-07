@@ -1,0 +1,48 @@
+---
+title: 'Data Visualisation Using R --- Workshop-2'
+output:
+  html_document:
+    df_print: paged
+---
+```{r, echo=FALSE, message=FALSE}
+library(here)
+```
+### Q1. Load the R-package `tidyverse`, which should load the `ggplot2` package.
+
+### Q2. Create the following plot using the `iris` dataset.
+![](`r here::here("PlotsWorkshop2", "Scatter1.png")`){width=40%}
+
+### Q3. Add a regression line in the above plot and comment on the relationship between `Sepal.Length` and `Sepal.Width` - try to produce the following plot.
+![](`r here::here("PlotsWorkshop2", "Scatter3.png")`){width=40%}
+
+### Q4. Investigate the same relationship conditional on the iris species --- try to produce the following plot.
+![](`r here::here("PlotsWorkshop2", "Scatter2.png")`){width=50%}
+
+### Q5. Do you find the results obtained from the answers of Q3 and Q4 contradictory? What is Simpson's paradox, and do you think it is applicable here?
+
+### Q6. Use `mtcars` dataset to produce the following figure:
+![](`r here::here("PlotsWorkshop2", "mtcars_plt1.png")`){width=30%}
+
+### Q7. Modify the above figure to produce the following figure:
+![](`r here::here("PlotsWorkshop2", "mtcars_plt2.png")`){width=30%}
+
+### Q8. Create the following figure and comment about the `mpg` distributions of three cylinder sizes.
+![](`r here::here("PlotsWorkshop2", "mtcars_plt3.png")`){width=50%}
+
+### Q9. Load the `mpg` dataset stored in the `ggplot2` package.
+
+### Q10. Use the `mpg` dataset to produce the following visualisation:
+![](`r here::here("PlotsWorkshop2", "hwy_cty_drv0.png")`){width=50%}
+
+### Q11. Add regression lines to the above visualisation and produce a plot similar to the one shown below.
+![](`r here::here("PlotsWorkshop2", "hwy_cty_drv.png")`){width=50%}
+
+### Q12. Load the `diamonds` dataset stored in the `ggplot2` package.
+
+### Q13. Use the `diamonds` dataset to produce the following visualisation:
+![](`r here::here("PlotsWorkshop2", "geompointsmooth.png")`){width=50%}
+
+### Q14. Use the `mpg` dataset to produce the following plot for investigating the relationships between `hwy`, `cty`, `class` and `drv`:
+![](`r here::here("PlotsWorkshop2", "facet_grid_example2.png")`){width=50%}
+
+
