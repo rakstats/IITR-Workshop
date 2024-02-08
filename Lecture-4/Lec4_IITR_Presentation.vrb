@@ -1,0 +1,11 @@
+\frametitle{Choropleth using quantitative variable}
+\begin{lstlisting}
+########################################
+#Choropleth using Quantitative variable#
+########################################
+ggplot(usaMapMerged, aes(long, lat,
+                    group = group,
+                    fill = QuantVar)) +
+  geom_polygon(color = "black") +
+  theme_void()
+\end{lstlisting}
