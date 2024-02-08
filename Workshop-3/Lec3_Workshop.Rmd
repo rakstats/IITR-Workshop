@@ -1,0 +1,55 @@
+---
+title: 'Data Visualisation Using R --- Week-3 Workshop '
+output:
+  html_document:
+    df_print: paged
+---
+```{r, echo=FALSE, message=FALSE}
+library(here)
+```
+### Q1. Load the R-package `tidyverse`, which should load the `ggplot2` package. Also, load the `ggthemes` and the `RColorBrewer` packages to access several professional in-built themes and many useful colour palettes, respectively.
+
+### Q2. Create the following plot using the `iris` dataset. (Hint: use `theme_bw()` and remove panel gridlines from the plot.)
+![](`r here::here("PlotsLec3", "el_blank_example.png")`){width=30%}
+
+### Q3. Generate the following plot displaying all the major **text elements** in a given plot. (Hint: Use `color = "#2A4DFA"` and play around with the `size` argument to get an appropriate display).
+![](`r here::here("PlotsLec3", "text_el_plt.png")`){width=80%}
+
+### Q4. Use `mpg` dataset to display the `strip.text` elements in both x and y facets. Hint: Use `drv` and `class` (only consider `suv` and  `compact` classes) variables for faceting, but you need to relabel the levels of these two factors.)
+![](`r here::here("PlotsLec3", "strip_text_plt.png")`){width=50%}
+
+### Q5. Modify strip text elements to create the following visualisation using the `iris` dataset.
+![](`r here::here("PlotsLec3", "iris_enhanced_strip.png")`){width=50%}
+
+### Q6. Use `iris` dataset to produce the following figure:
+![](`r here::here("PlotsLec3", "mod_leg_title_text_plt.png")`){width=40%}
+
+### Q7. Modify the above figure to improve the legend guide -- produce the following figure:
+![](`r here::here("PlotsLec3", "enhanced_leg_guide.png")`){width=40%}
+
+### Q8. Modify the above figure to place the legend on top of the plot -- construct the following plot.
+![](`r here::here("PlotsLec3", "leg_on_top.png")`){width=40%}
+
+### Q9. Modify the above figure to place the legend inside the plot -- construct the following plot.
+![](`r here::here("PlotsLec3", "leg_in_plt.png")`){width=40%}
+
+### Q10. Create the customised theme used in the following figure. Also, add the scatter plot and the line of best fit based on the `iris` dataset.
+![](`r here::here("PlotsLec3", "iris_custom_theme.png")`){width=50%}
+
+### Q11. Use the Wall street journal theme from the `ggthemes` package to produce the following plot.
+![](`r here::here("PlotsLec3", "mtcars_wsj_plt.png")`){width=50%}
+
+### Q12. Use the FiveThirtyEight theme from the `ggthemes` package to produce the following plot.
+![](`r here::here("PlotsLec3", "mtcars_538_plt.png")`){width=50%}
+
+### Q13. Use the Economist journal theme from the `ggthemes` package to produce the following plot.
+![](`r here::here("PlotsLec3", "mtcars_econ_plt.png")`){width=50%}
+
+### Q14. Create the following plot using the `diamonds` dataset.
+![](`r here::here("PlotsLec3", "diamonds_plt.png")`){width=50%}
+
+### Q15. Use the `scale_color_brewer()` to produce the plot below.
+![](`r here::here("PlotsLec3", "mtcars_seq_brewer.png")`){width=50%}
+
+### Q16. Use the `scale_color_manual()` to produce the plot below.
+![](`r here::here("PlotsLec3", "mtcars_col_manual.png")`){width=50%}
