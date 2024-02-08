@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Outline}{2}{0}{1}
+\beamer@sectionintoc {2}{Quick review}{3}{0}{2}
+\beamer@sectionintoc {3}{Deep dive into themes}{7}{0}{3}
+\beamer@sectionintoc {4}{Text elements}{9}{0}{4}
+\beamer@sectionintoc {5}{Line elements}{34}{0}{5}
+\beamer@sectionintoc {6}{Rectangular elements}{42}{0}{6}
+\beamer@sectionintoc {7}{Custom theme creation}{43}{0}{7}
+\beamer@sectionintoc {8}{Ggplot2 in-built themes and others}{46}{0}{8}
+\beamer@sectionintoc {9}{Important scale functions}{51}{0}{9}
+\beamer@sectionintoc {10}{Summary}{64}{0}{10}

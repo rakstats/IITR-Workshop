@@ -1,0 +1,17 @@
+\frametitle{RCode: \texttt {\textcolor {red}{scale$\_$color$\_$manual()}} example}
+\begin{lstlisting}
+baseplt <- ggplot(mtcars,aes(disp, mpg,
+           color = factor(cyl))) +
+           geom_point()
+
+# Define a named vector with your favourite colors
+col_vec <- c("4" = "blue",
+             "6" = "green",
+             "8" = "red")
+
+# Use your favourite colors
+baseplt +
+ scale_color_manual("Cylinders",
+                    values = col_vec)
+
+\end{lstlisting}
